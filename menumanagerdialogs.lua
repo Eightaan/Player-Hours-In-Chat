@@ -1,7 +1,7 @@
 local close_person_joining_original = MenuManager.close_person_joining
 
 function MenuManager:close_person_joining(id, ...)
-    local show_hidden_hours = true --Change this to false to disable the hidden hour message
+    local show_hidden_hours = false --Change this to true to show when a player has their hours hidden
 	if managers.chat and managers.system_menu:is_active_by_id("user_dropin" .. id) then
 		local peer = managers.network:session() and managers.network:session():peer(id)
 		if peer then
