@@ -1,6 +1,6 @@
 {
 	"name" : "Player Hours In Chat",
-	"description" : "Show hours played from joining players.",
+	"description" : "Show hours played by joining players.",
 	"author" : "Eightan",
 	"version" : "1.0.0",
 	"blt_version" : 2,
