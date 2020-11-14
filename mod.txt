@@ -1,0 +1,15 @@
+{
+	"name" : "Player Hours In Chat",
+	"description" : "Show hours played from joining players.",
+	"author" : "Eightan",
+	"version" : "1.0.0",
+	"blt_version" : 2,
+	"color" : "0.15 0.15 0.15",
+	"image" : "_icon.png",
+	"hooks" : [
+		{
+			"hook_id" : "lib/managers/menumanagerdialogs",
+			"script_path" : "menumanagerdialogs.lua"
+		}
+	]
+}
