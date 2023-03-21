@@ -2,14 +2,14 @@
 	"name" : "Player Hours In Chat",
 	"description" : "Show hours played by joining players.",
 	"author" : "Eightan",
-	"version" : "1.0.1",
+	"version" : "1.0.2",
 	"blt_version" : 2,
 	"color" : "0.15 0.15 0.15",
 	"image" : "_icon.png",
 	"hooks" : [
 		{
 			"hook_id" : "lib/network/base/networkpeer",
-			"script_path" : "mod.lua"
+			"script_path" : "Hours.lua"
 		}
 	]
 }
